@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+
+
+header {
+    background-color: #20232a;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 36px;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #ddd;
+}
+
+
+
+nav {
+    background-color: #343a40;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #61dafb;
+}
+
+
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+
+
+section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    margin-top: 0;
+    color: #20232a;
+
+    border-bottom: 2px solid #61dafb;
+    padding-bottom: 8px;
+}
+
+
+
+.proyecto {
+    background-color: #f4f6f8;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+
+.boton {
+    display: inline-block;
+
+    background-color: #20232a;
+    color: white;
+
+    text-decoration: none;
+
+    padding: 10px 18px;
+
+    border-radius: 5px;
+
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.boton:hover {
+    background-color: #61dafb;
+    color: #20232a;
+}
+
+
+
+footer {
+    background-color: #20232a;
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+}
+
+
+/* diseño responsivo */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px;
+    }
+
+}
